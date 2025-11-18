@@ -314,7 +314,7 @@
                         <span class="help-text">Your company's approximate annual revenue</span>
                         <div class="input-wrapper">
                             <span class="prefix">$</span>
-                            <input type="number" id="revenue" placeholder="5000000" min="0" step="100000" required>
+                            <input type="number" id="revenue" placeholder="5000000" min="0" step="1" required>
                         </div>
                     </div>
 
@@ -322,7 +322,7 @@
                         <label>Number of Employees</label>
                         <span class="help-text">Full-time employees in your organization</span>
                         <div class="input-wrapper">
-                            <input type="number" id="employees" placeholder="25" min="1" required>
+                            <input type="number" id="employees" placeholder="25" min="1" step="1" required>
                             <span class="suffix">employees</span>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                         <label>Hours Spent on Repetitive Tasks (per week)</label>
                         <span class="help-text">Total hours your team spends on manual, repetitive work (data entry, report generation, etc.)</span>
                         <div class="input-wrapper">
-                            <input type="number" id="repetitiveHours" placeholder="40" min="0" required>
+                            <input type="number" id="repetitiveHours" placeholder="40" min="0" step="0.5" required>
                             <span class="suffix">hours/week</span>
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                         <span class="help-text">Average cost per hour for employees doing these tasks</span>
                         <div class="input-wrapper">
                             <span class="prefix">$</span>
-                            <input type="number" id="hourlyRate" placeholder="50" min="0" required>
+                            <input type="number" id="hourlyRate" placeholder="50" min="0" step="0.01" required>
                             <span class="suffix">/hour</span>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                         <label>Customer Support Tickets (per month)</label>
                         <span class="help-text">Number of customer inquiries/tickets you handle monthly</span>
                         <div class="input-wrapper">
-                            <input type="number" id="supportTickets" placeholder="500" min="0" required>
+                            <input type="number" id="supportTickets" placeholder="500" min="0" step="1" required>
                             <span class="suffix">tickets/month</span>
                         </div>
                     </div>
@@ -364,7 +364,7 @@
                         <label>Average Time per Ticket</label>
                         <span class="help-text">Average minutes spent resolving each ticket</span>
                         <div class="input-wrapper">
-                            <input type="number" id="ticketTime" placeholder="15" min="0" required>
+                            <input type="number" id="ticketTime" placeholder="15" min="0" step="0.5" required>
                             <span class="suffix">minutes</span>
                         </div>
                     </div>
@@ -388,7 +388,7 @@
                         <span class="help-text">Average cost to fix each error (time + impact)</span>
                         <div class="input-wrapper">
                             <span class="prefix">$</span>
-                            <input type="number" id="errorCost" placeholder="200" min="0" required>
+                            <input type="number" id="errorCost" placeholder="200" min="0" step="0.01" required>
                         </div>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                         <span class="help-text">Total monthly spend on marketing activities</span>
                         <div class="input-wrapper">
                             <span class="prefix">$</span>
-                            <input type="number" id="marketingSpend" placeholder="10000" min="0" required>
+                            <input type="number" id="marketingSpend" placeholder="10000" min="0" step="1" required>
                         </div>
                     </div>
 
@@ -420,7 +420,7 @@
                         <span class="help-text">Average revenue from a customer over their lifetime</span>
                         <div class="input-wrapper">
                             <span class="prefix">$</span>
-                            <input type="number" id="ltv" placeholder="25000" min="0" required>
+                            <input type="number" id="ltv" placeholder="25000" min="0" step="1" required>
                         </div>
                     </div>
                 </div>
