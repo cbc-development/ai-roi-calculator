@@ -1,0 +1,19 @@
+{
+  "name": "ai-roi-calculator",
+  "version": "1.0.0",
+  "description": "AI ROI Calculator - Interactive tool to estimate potential ROI from AI implementation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "roi",
+    "calculator",
+    "business",
+    "automation"
+  ],
+  "author": "Concannon AI",
+  "license": "MIT"
+}
